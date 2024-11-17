@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Dipper Pines",
+        "image": "https://wallpapers.com/images/featured/dipper-pines-edp2x47as6ohzngc.jpg",
+        "quote": "I’m not a hero, I’m just a kid.",
+        "episode": "The Inconveniencing"
+      },
+      {
+        "id": 2,
+        "name": "Mabel Pines",
+        "image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2024/06/mixcollage-27-jun-2024-02-48-am-7186.jpg",
+        "quote": "Everything is great!",
+        "episode": "The Inconveniencing"
+      },
+      {
+        "id": 3,
+        "name": "Soos",
+        "image": "https://ik.imagekit.io/x2dirkim6/images/avatars/characters/character_avatar_ARP72qoyU.webp?tr=w-3840",
+        "quote": "Hey, do you need a giant robot?",
+        "episode": "Soos and the Real Girl"
+      }
+]

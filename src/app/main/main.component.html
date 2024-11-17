@@ -1,0 +1,17 @@
+<div class="characters-board">
+    <div *ngFor="let character of characters" class="character-card">
+      <div class="character-image">
+        <img [src]="character.image" alt="{{ character.name }}">
+      </div>
+      <div class="character-name">
+        <p>{{ character.name }}</p>
+      </div>
+      <div class="character-quote">
+        <p>{{ character.quote }}</p>
+      </div>
+      <div class="character-episode">
+        <p>{{ character.episode }}</p>
+      </div>
+    </div>
+  </div>
+  

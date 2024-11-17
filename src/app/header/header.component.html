@@ -1,0 +1,23 @@
+   <div class="header">
+    <div class="img-filter">
+      <div class="spacing"></div>
+      <div class="search-bar">
+        <input [(ngModel)]="searchTerm" (input)="onSearch()" type="search" placeholder="Search..">
+      <ul *ngIf="filteredCharacters.length > 0">
+          <div class="search-result" >
+          <li *ngFor="let character of filteredCharacters">
+            <div class="seach-result-row">
+            <div class="search-image">
+              <img [src]="character.image" alt="{{ character.name }}" width="50" height="50" />
+            </div>
+              <div class="search-name">
+                <p> {{ character.name }}</p>
+              </div>
+            </div>
+          </li>
+        </div>
+      <p *ngIf="filteredCharacters.length === 0 && searchTerm" id="noResult">No results found.</p>
+      </ul>
+      </div>
+  </div>
+  </div>
