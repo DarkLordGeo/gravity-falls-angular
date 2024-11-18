@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { MainComponent } from './main/main.component';
 import { FormsModule } from '@angular/forms';
+import { RightComponent } from './right/right.component';
+import { LeftComponent } from './left/left.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    MainComponent
+    MainComponent,
+    RightComponent,
+    LeftComponent
   ],
   imports: [
     BrowserModule,

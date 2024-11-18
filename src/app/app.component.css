@@ -1,0 +1,15 @@
+.main-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+app-main{
+    width: 50%;
+}
+app-left{
+    width: 25%;
+}
+app-right{
+    width: 25%;
+}
